@@ -3,8 +3,8 @@ import componentsImage from "../assets/images/components.png";
 const Concept = (props) => {
   const mapping = props.data.map((item) => {
     return (
-      <li>
-        <img src={componentsImage} alt={item.title} />
+      <li >
+        <img src={item.image} alt={item.title} />
         <h2>{item.title}</h2>
         <p>{item.description}</p>
       </li>

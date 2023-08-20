@@ -26,9 +26,11 @@ const concepts = [
 ];
 
 function App() {
+  const title = "Key React Concepts";
+  const description = "Selected key React concepts you should know about";
   return (
     <div>
-      <Header />
+      <Header title={title} description={description} />
       <Concept data={concepts} />
     </div>
   );
